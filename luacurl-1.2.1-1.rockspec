@@ -5,7 +5,7 @@ version = "1.2.1-1"
 -- LuaDist source
 source = {
   tag = "1.2.1-1",
-  url = "git://github.com/LuaDist2/luacurl.git"
+  url = "git://github.com/f84anton/luacurl.git"
 }
 -- Original source
 -- source = {
