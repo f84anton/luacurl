@@ -810,7 +810,7 @@ static int lcurl_gc(lua_State* L)
 }
 
 
-static const struct luaL_reg luacurl_meths[] =
+static const struct luaL_Reg luacurl_meths[] =
 {
 	{"close", lcurl_easy_close},
 	{"setopt", lcurl_easy_setopt},
@@ -820,7 +820,7 @@ static const struct luaL_reg luacurl_meths[] =
 	{0, 0}
 };
 
-static const struct luaL_reg luacurl_funcs[] =
+static const struct luaL_Reg luacurl_funcs[] =
 {
 	{"new", lcurl_easy_init},
 	{"escape", lcurl_escape},
